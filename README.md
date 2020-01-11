@@ -1,7 +1,7 @@
 ## 服务端项目配置说明
 
-1. MyEclipse里的服务端项目
-DestineFoodServer
+1. 服务端项目
+DestineFoodServer（导入MyEclipse）
 
 2. 服务端里的代码
 /DestineFoodServer/src
