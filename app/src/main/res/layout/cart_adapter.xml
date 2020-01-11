@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="product" type="food.bean.Product" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/foodid"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="@{product.id + ``}" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:text="@{product.name}" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="@{product.price + ``}" />
+
+        <TextView
+            android:id="@+id/foodnumber"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(product.quantity)}" />
+
+        <TextView
+            android:id="@+id/sumprices"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:text="金额" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <data>
+        <variable name="product" type="food.bean.Product" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/widget39"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/bluebackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gridview_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:imageUrl="@{product.image}"/>
+
+        <TextView
+            android:id="@+id/gridview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@{product.checked ? 0xFF00ff00 : 0x00000000}"
+            android:text="@{`菜名：` + product.name}"
+            android:textColor="#0000ff" />
+
+        <TextView
+            android:id="@+id/gridview_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{`价格：` + product.price}"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+</layout>

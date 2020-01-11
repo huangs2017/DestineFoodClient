@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_item1"
+        android:icon="@mipmap/tab_yazi"
+        android:title="鸭子" />
+
+    <item
+        android:id="@+id/navigation_item2"
+        android:icon="@mipmap/tab_baozi"
+        android:title="包子" />
+
+    <item
+        android:id="@+id/navigation_item3"
+        android:icon="@mipmap/tab_xiancai"
+        android:title="咸菜" />
+
+</menu>

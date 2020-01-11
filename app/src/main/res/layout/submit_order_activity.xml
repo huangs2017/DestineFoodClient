@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<data>
+
+	</data>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="客 户 姓 名： "
+				android:textSize="18sp" />
+
+			<TextView
+				android:id="@+id/txt_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="客 户 电 话："
+				android:textSize="18sp" />
+
+			<EditText
+				android:id="@+id/edit_phone"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:textSize="18sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="客 户 地 址："
+				android:textSize="18sp" />
+
+			<EditText
+				android:id="@+id/edit_address"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:textSize="18sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="客 户 要 求："
+				android:textSize="18sp" />
+
+			<EditText
+				android:id="@+id/edit_remark"
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:textSize="18sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="50dp"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/bcancel"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textSize="18sp"
+				android:text="取消" />
+
+			<Button
+				android:id="@+id/bsubmit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textSize="18sp"
+				android:text="提交清单" />
+		</LinearLayout>
+
+	</LinearLayout>
+</layout>

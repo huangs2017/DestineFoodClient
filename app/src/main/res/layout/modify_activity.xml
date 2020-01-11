@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="餐品名称" />
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="餐品价格" />
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_modify"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="修改" />
+
+</LinearLayout>
