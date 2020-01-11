@@ -3,7 +3,7 @@
 1. 服务端项目
 DestineFoodServer（导入MyEclipse）
 
-2. 服务端里的代码
+2. 服务端代码
 /DestineFoodServer/src
 
 3. 服务端连接MySQL数据库的配置
